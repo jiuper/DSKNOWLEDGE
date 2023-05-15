@@ -1,0 +1,102 @@
+.ant-checkbox+span {
+    padding-inline-start: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #201E1E;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.resultBody {
+    width: 1075px;
+    margin-left: 32px;
+}
+.resultsFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.resultsFilter__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #201E1E;
+}
+
+.resultsFilter__section_CheckBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
+}
+
+.resultsFilter__status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.resultsFilter__score {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.resultsFilter__score_textField {
+    position: relative;
+    border: 1px solid #E6E1E5;
+}
+
+.result__line{
+    border-left: 1px solid #E6E1E5;
+    height: 37px;
+    position: absolute;
+    left: 50%;
+}
+
+.resultsFilter__textField {
+    width: 92px;
+    height: 36px;
+    padding: 8px 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+}
+
+.resultsFilter__textField-left {
+    border-right: 1px solid #E6E1E5;
+}
+
+.resultsFilter__textField-right {
+    border-left: 1px solid #E6E1E5;
+}
+
+.resultsFilter__years {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+

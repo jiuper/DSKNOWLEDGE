@@ -1,0 +1,74 @@
+.resultModal__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 96px;
+    gap: 32px;
+    min-width: 900px;
+}
+
+.resultModal__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.resultModal__text-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #212121;
+}
+
+.resultModal__text-mainText{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: #212121;
+}
+.resultModal__buttonGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.resultModal__buttonGroup-exitButton{
+    width: 128px;
+    height: 40px;
+    border: 1px solid #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #236BE2;
+    background: #fff;
+}
+
+.resultModal__buttonGroup-resultButton{
+    width: 140px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+
+}
+
+.asdadadad{
+    width: 100%;
+}

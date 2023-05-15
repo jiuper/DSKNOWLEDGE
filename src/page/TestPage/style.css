@@ -1,0 +1,80 @@
+.tests {
+    margin-bottom: 56px;
+}
+
+.tests__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.tests__title {
+    color: var(--main-text-color);
+}
+
+.tests__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+
+.test__select {
+    width: 110px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #F5F5F5;
+}
+
+.test__select:hover{
+    background-color: #E9F0FC;
+}
+
+.modal__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.modal__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #201E1E;
+    width: 410px;
+    padding: 0 5px 24px;
+}
+
+.modal_singin__button{
+    width: 411px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    margin-bottom: 14px;
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.modal_singup__button{
+    width: 411px;
+    height: 40px;
+    color: #236BE2;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background: #fff;
+}

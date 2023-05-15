@@ -1,0 +1,62 @@
+.addQuestion__content .header__content {
+    justify-content: flex-end;
+    height: 64px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.addQuestion__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addQuestion__all {
+    padding: 16px 20px;
+}
+
+.addQuestion__title-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #201E1E;
+}
+
+.addQuestion__title__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.addQuestion__title__buttons-cancel {
+    width: 102px;
+    height: 40px;
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #236BE2;
+    border: 1px solid #79747E;
+}
+
+.addQuestion__title__buttons-create {
+    width: 106px;
+    height: 40px;
+    background: #236BE2;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.select__anchor{
+    width: 411px;
+    background: #E9F0FC;
+}

@@ -1,0 +1,29 @@
+.pagination__test {
+    min-width: 946px;
+    padding: 40px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.pagination__title {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.pagination__test .qustionBox__list {
+    width: 866px;
+}
+
+.pagination__test .qustionBox__list{
+    height: 100%;
+}
+
+.pagination__test .qustionBox {
+    height: 100%;
+}

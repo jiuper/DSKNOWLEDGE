@@ -1,0 +1,30 @@
+.boxImgList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.boxImgItem {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.boxImgItem:hover {
+    border: 1px solid var(--main-bg-color);
+}
+
+.boxImgItem__pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxImgItem__pic:hover {
+    opacity: 1!important;
+}

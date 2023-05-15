@@ -1,0 +1,30 @@
+.field {
+    position: relative;
+    padding: 14px 16px;
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #79747E;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+}
+
+.field:hover {
+    border-color: #ebaded;
+}
+
+.field:focus {
+    border-color: #ebaded;
+}
+
+.input-error {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #B3261E;
+}

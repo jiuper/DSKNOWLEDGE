@@ -1,0 +1,9 @@
+
+.faq__wrapper::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 10px;
+}
+
+.faq__wrapper::-webkit-scrollbar-thumb {
+    background-color: #E6E1E5;
+}

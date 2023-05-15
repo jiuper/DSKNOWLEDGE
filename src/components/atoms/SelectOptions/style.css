@@ -1,0 +1,30 @@
+.options-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.options-item__img {
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options-item__img div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--main-bg-color);
+}
+
+.options-item:hover {
+    background-color: #E9F0FC;
+}
+
+.link__active{
+    text-decoration: none;
+    color: #0A1811;
+}

@@ -1,0 +1,9 @@
+.checkbox-qustion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+}
+.checkbox-qustion-text{
+    max-width: 500px;
+}

@@ -1,0 +1,145 @@
+.feedback_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 40px;
+    gap: 32px;
+    width: 975px;
+}
+
+.feedback__title {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.feedback__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    gap: 24px;
+}
+
+.feedback__userData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.feedback__userData__fio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 16px;
+    gap: 32px;
+}
+
+.feedback_input {
+    width: 300px;
+    height: 48px;
+    border: 1px solid #C9C5CA;
+    border-radius: 4px;
+    padding-left: 16px;
+    color: #938F99;
+}
+
+.feedback__userData__other {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+    padding-bottom: 24px;
+}
+
+.feedback__select {
+    width: 300px;
+    height: 48px;
+    display: flex;
+    padding: 8px 16px;
+    border: 1px solid #C9C5CA;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feedback__select span {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.feedback__select.option-item {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.feedback__select .select__option {
+    display: inline-block;
+    border-top: 1px solid #C9C5CA;
+    padding: 10px 8px;
+    margin: 0;
+    width: 300px;
+    height: 30px;
+}
+
+.feedback__select .select__wrapper {
+    border: 1px solid #C9C5CA;
+    background-color: #F5F5F5;
+    width: 300px;
+    padding: 0;
+    gap: 0
+}
+
+.feedback__userData__problem_text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 4px;
+    border: 1px solid #C9C5CA;
+    border-radius: 4px;
+    width: 632px;
+    height: 152px;
+    resize: none;
+}
+
+.feedback__button_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 123px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    padding: 10px 24px;
+    gap: 10px;
+}
+
+.modal__close {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    padding: 10px;
+}

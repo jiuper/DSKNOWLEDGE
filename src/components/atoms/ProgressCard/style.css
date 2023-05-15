@@ -1,0 +1,69 @@
+.progress-card {
+    height: 316px;
+    padding: 32px;
+    border: 1px solid #E6E1E5;
+    border-radius: 8px;
+}
+
+.progree-card__content {
+    width: 822px;
+    height: 204px;
+}
+
+.progree-card__description {
+    width: 379px;
+}
+
+.progree-card__header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.progree-card__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-card__select {
+    height: 40px;
+    padding: 8px 16px;
+    background-color: var(--color-bg-select);
+    z-index: 10;
+}
+
+.progree-card__date {
+    width: 120px;
+}
+
+.progree-card__year {
+    width: 107px;
+}
+
+.progree-card__title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.progree-card__text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.g2-tooltip-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

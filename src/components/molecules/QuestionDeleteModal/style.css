@@ -1,0 +1,79 @@
+.deleteQuestionModal__container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:24px;
+
+}
+
+.addQuestion__container .modal__content {
+    border-radius: 28px;
+}
+
+.deleteQuestionModal__Texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 24px;
+    gap: 16px;
+
+}
+
+.deleteQuestionModal__Texts-title{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: #201E1E;
+}
+
+.deleteQuestionModal__Texts-caption{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #49454F;
+}
+
+.deleteQuestionModal__buttonGroup{
+    display: flex;
+    flex-direction: row;
+    float: right;
+
+}
+
+.deleteQuestionModal__buttonGroup-CancelButton{
+    width: 102px;
+    height: 40px;
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #236BE2;
+}
+
+.deleteQuestionModal__buttonGroup-DeletelButton{
+    width: 106px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-left: 8px;
+}

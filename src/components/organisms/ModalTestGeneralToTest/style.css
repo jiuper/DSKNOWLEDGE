@@ -1,0 +1,116 @@
+.modal__testStart {
+	min-width: 538px;
+	padding: 40px;
+	border-radius: 8px;
+	height: 276px;
+}
+
+.modal__loader-title {
+	display: flex;
+	justify-content: space-between;
+	font-family: "Inter", sans-serif;
+	margin-bottom: 24px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+}
+.modal__loader-button {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+
+.addTestComponent__timeAndLevel {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 32px;
+}
+
+.addTestComponent__timeAndLevel__time {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.addTestComponent__timeAndLevel__time-text {
+	font-family: var(--font-family-inter);
+	font-style: var(--title-font-style-normal);
+	font-weight: 400;
+	font-size: var(--title-font-size-16);
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: #a9a9a9;
+}
+
+.addTestComponent__timeAndLevel__time-textField {
+	width: 88px;
+	height: 32px;
+	border: 1px solid #625b71;
+	border-radius: 4px;
+	font-family: var(--font-family-inter);
+	font-style: var(--title-font-style-normal);
+	font-weight: var(--btn-font-weight-500);
+	font-size: var(--title-font-size-16);
+	line-height: var( --title-font-size-24);
+	letter-spacing: 0.1px;
+	color: var( --main-text-color);
+	padding: 4px 21px;
+}
+
+.addTestComponent__timeAndLevel__time-switch {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
+}
+
+.addTestComponent__timeAndLevel__time-switch-text {
+	font-family: var(--font-family-inter);
+	font-style: var(--title-font-style-normal);
+	font-weight: var(--btn-font-weight-500);
+	font-size: var(--title-font-size-16);
+	line-height: var( --title-font-size-24);
+	letter-spacing: 0.1px;
+}
+.addTestComponent__timeAndLevel__time-input {
+	display: flex;
+	gap: 8px;
+}
+.addTestComponent__timeAndLevel__time-switch-Totaltext {
+	color: var(--main-bg-color);
+}
+
+.addTestComponent__timeAndLevel__amount {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.amountInput {
+	width: 73px;
+	padding: 4px 31px;
+}
+
+.deleteSectionModal__buttonGroup-StartButton {
+	width: 199px;
+	height: 40px;
+	background: var(--main-bg-color);
+	font-family: var(--font-family-inter);
+	font-style: var(--title-font-style-normal);
+	font-weight: var(--btn-font-weight-500);
+	font-size: var(--btn-font-size-14);
+	line-height: var(--card-line-height-20);
+	color: var(--white-text-color);
+}
+
+.modal__testStart .modal__loader-button {
+	margin-top: 32px;
+	gap: 16px;
+}
+.modal__error {
+	color: red;
+	border-color: red;
+}

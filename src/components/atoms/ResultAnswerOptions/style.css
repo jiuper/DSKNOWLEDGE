@@ -1,0 +1,18 @@
+.resultAnswerOtions__container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 0px;
+    gap: 8px;
+    width: 435px;
+}
+.resultAnswerOtions__label{
+    width: 371px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #201E1E;
+}

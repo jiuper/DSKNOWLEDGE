@@ -1,0 +1,19 @@
+.checkbox-qustion-inputText{
+    border: 1px solid #AEAAAE;
+    border-radius: 4px;
+    height: 36px;
+   width: 100%;
+    padding: 8px;
+}
+.checkbox-qustion-input{
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.checkbox-qustion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    width: 800px;
+}

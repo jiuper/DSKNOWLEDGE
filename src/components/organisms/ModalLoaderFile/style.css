@@ -1,0 +1,26 @@
+.modal__loader {
+    min-width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.modal__loader-title{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+.modal__loader-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.modal__error{
+    color: red;
+    border-color: red;
+}

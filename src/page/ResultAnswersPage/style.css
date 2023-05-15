@@ -1,0 +1,27 @@
+.resultAnswersPage__underScore{
+    border-bottom: 1px solid #AEA9B4;
+    gap: 600;
+    height: 45px;
+    width: 1296px;
+}
+.resultAnswersPage__underScore__mission{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #201E1E;
+    padding-left: 183px;
+}
+
+.resultAnswersPage__underScore__explanation{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #201E1E;
+    padding-left: 600px;
+}

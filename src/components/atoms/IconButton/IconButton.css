@@ -1,0 +1,17 @@
+.icon-button{
+    background: #FFF;
+    color: #236BE2;
+    border-radius: 100px;
+    border: #236BE2 1px solid;
+    padding: 10px 104px;
+    font-size: 14px;
+}
+
+
+.icon{
+height: 18px;
+width: 18px;
+}
+.icon-button__text{
+margin-left: 8px;
+}

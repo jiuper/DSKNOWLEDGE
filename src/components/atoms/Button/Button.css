@@ -1,0 +1,29 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--btn-font-weight-500);
+    font-size: var(--btn-font-size-14);
+    line-height: var(--card-line-height-20);
+    padding: 10px;
+    color: #236BE2;
+    border-radius: 100px;
+    border: 1px solid #236BE2;
+    cursor: pointer;
+}
+
+.active{
+    width: 500px;
+}
+.header_singup__button {
+    padding: 10px 24px;
+    gap: 8px;
+    background: var(--white-text-color);
+    width: 138px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--btn-font-size-14);
+    line-height: var(--card-line-height-20);
+    color: var(--main-bg-color);
+}

@@ -1,0 +1,34 @@
+.text-opacity{
+    mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    opacity: 1;
+}
+.LabelWithTruncate__text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.label__button{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    width: 100%;
+    z-index: 100;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #236BE2;
+    border: #fff;
+}
+
+.LabelWithTruncate__container{
+    width: 521px;
+}

@@ -1,0 +1,76 @@
+.ant-progress-inner {
+    position: relative;
+}
+
+.ant-progress-text {
+    position: absolute; 
+    left: 15px;
+    bottom: 15px;
+}
+
+.test__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 14px;
+    border-bottom: 1px solid #E6E1E5;
+}
+
+
+.test__progress {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85px;
+}
+
+.test__item:last-child {
+    border-bottom: none;
+}
+
+.test__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.test__date {
+    width: 85px;
+}
+
+.test__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 157px;
+}
+
+.test__status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+
+
+.test__state {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 78px;
+}
+
+.test__counter {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.test__counter-time {
+    width: 80px;
+}
+
+.test__counter-quantity {
+    width: 70px;
+}

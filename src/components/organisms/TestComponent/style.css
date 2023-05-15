@@ -1,0 +1,49 @@
+.testComponent__QuestionSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 32px;
+}
+
+.testComponent__QuestionSort__serchAndSelect{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 32px;
+}
+
+.testComponent__QuestionSort__button{
+    padding: 0px;
+    gap: 8px;
+    width: 169px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    }
+
+.testComponent__container{
+    width: 100%;
+    padding: 32px 20px;
+
+}
+
+.testComponent__QuestionSort__serchAndSelect-select{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #E5E5E5;
+    width: 167px;
+    height: 40px;
+}
+.testComponent__headder{
+    padding-bottom: 32px;
+}
+
+.testComponent-breadCrumbs{
+    padding-bottom: 16px;
+}

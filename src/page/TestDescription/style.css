@@ -1,0 +1,12 @@
+.description-page__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 34px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
