@@ -1,0 +1,48 @@
+.skeleton-test__card {
+    width: 300px;
+    height: 500px;
+    padding: 16px;
+    border: 1px solid #E6E1E5;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(38, 37, 37, 0.12);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.skeleton-test__card__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.skeleton-test__card__img {
+    width: 268px;
+    height: 211px;
+    border-radius: 4px;
+}
+
+
+.skeleton-test__card__content {
+    width: 268px;
+}
+
+.skeleton-test__card__title {
+    width: 268px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skeleton-test__card__text {
+    width: 100%;
+    height: 141px;
+}
+
+.skeleton-test__card__resume {
+    display: flex;
+    gap: 16px;
+    height: 20px;
+    width: 60%;
+}

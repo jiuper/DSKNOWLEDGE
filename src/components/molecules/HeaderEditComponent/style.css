@@ -1,0 +1,59 @@
+.editing-section {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+    padding: 24px 16px 24px 20px;
+}
+
+.editing-section__picture {
+    width: 200px;
+    height: 164px;
+    border-radius: 16px;
+}
+
+.editing-section__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    width: 70%;
+    height: 168px;
+    color: var(--main-text-color);
+    transition: 0.3s;
+}
+
+.editing-section__title {
+    font-weight: var(--btn-font-weight-500);
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.editing-section__description {
+    width: 100%;
+    height: 100px;
+    font-weight: var(--title-font-weight-400);
+    font-size: var(--btn-font-size-14);
+    line-height: var(--card-line-height-20);
+    letter-spacing: 0.25px;
+    overflow: hidden;
+}
+
+.editing-section__quantity {
+    align-self: end;
+    font-style: var(--title-font-style-normal);
+    font-weight: var(--btn-font-weight-500);
+    font-size: var(--title-font-size-16);
+    line-height: var(--title-line-height-24);
+    letter-spacing: 0.1px;
+}
+
+.editing-section__button {
+    border: 1px solid #625B71;
+    border-radius: 100px;
+    min-width: 207px;
+    height: 40px;
+    font-style: var(--title-font-style-normal);
+    background: rgba(123, 166, 238, 0.08);
+}

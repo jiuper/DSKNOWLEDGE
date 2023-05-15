@@ -1,0 +1,77 @@
+.testCancel__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 491px;
+    height: 352px;
+    gap: 24px;
+}
+
+.testCancel__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+}
+
+.testCancel__description__label_warning{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #201E1E;
+
+}
+
+.testCancel__description__label_annotation{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #625B71;
+}
+.testCancel__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+}
+
+.testCance__buttons_cancel-button{
+    width: 411px;
+    height: 40px;
+    background: #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testCance__buttons_getback-button{
+    width: 411px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #236BE2;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #236BE2;
+}

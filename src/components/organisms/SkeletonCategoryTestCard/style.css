@@ -1,0 +1,45 @@
+.skeleton-card {
+    width: 632px;
+    height: 264px;
+    padding: 32px;
+    border: 1px solid #E6E1E5;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(38, 37, 37, 0.12);
+}
+
+.skeleton-card__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.skeleton-card__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.skeleton-card__content {
+    width: 336px;
+    position: relative;
+}
+
+.skeleton-card__title {
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skeleton-card__text {
+    width: 100%;
+    height: 123px;
+}
+
+.skeleton-card__count {
+    display: block;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+}

@@ -1,0 +1,34 @@
+.create-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+}
+
+.create-header__title {
+    font-style: var(--title-font-style-normal);
+    font-weight: var(--btn-font-weight-500);
+    font-size: var(--title-font-size-32);
+    line-height: var(--title-line-height-40);
+}
+
+.create-header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.create-header__button_left,
+.create-header__button_right {
+    padding: 9px 24px;
+    font-style: var(--title-font-style-normal);
+}
+
+.create-header__button_left {
+    background-color: transparent;
+}
+
+.create-header__button_right {
+    color: var(--white-text-color);
+    background-color: var(--main-bg-color);
+}

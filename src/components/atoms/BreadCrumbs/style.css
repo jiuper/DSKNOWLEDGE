@@ -1,0 +1,28 @@
+.breadcrumbs {
+    display: flex;
+    font-family: var(--font-family-inter);
+    font-style: var( --title-font-style-normal);
+    font-weight: var( --title-font-weight-400);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.breadcrumbs__separator {
+    margin: 0 10px;
+}
+
+.breadcrumbs__link {
+    color: #625B71;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.breadcrumbs__link-disabled:hover,
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+}
+
+
+.breadcrumbs__link-disabled:hover:link {
+    text-decoration: underline;
+}

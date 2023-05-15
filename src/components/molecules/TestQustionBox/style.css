@@ -1,0 +1,42 @@
+.qustionBox {
+    min-width: 870px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    height: 92px;
+   
+}
+
+.qustionBox__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 8px;
+    width: 100%;
+    height: 92px;
+}
+
+.qustionBox__count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 211px;
+    white-space: nowrap;
+}
+
+.qustionBox__count span {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.qustionBox .carousel__prev {
+    left: -95px;
+    top: 30px;
+    opacity: 50%;
+}
+
+.qustionBox .carousel__next{
+    top: 30px
+}

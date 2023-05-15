@@ -1,0 +1,28 @@
+diff a/src/App.tsx b/src/App.tsx	(rejected hunks)
+@@ -1,24 +1,14 @@
+-import { Signin } from "./page/SignIn/SignIn";
+-import { Route, Routes } from "react-router-dom";
+ import { Header } from "./components/template/Header/Header";
+-import { SignUp } from "./page/SignUp/SignUp";
+-import { EBreadCrumbs } from "./constants/paths";
+-
+ import "./components/styles/styles.css";
+-import "./App.css";
+-
+-import { Footer } from "./components/template/Footer/Footer";
+ 
+ export const App = () => {
+   return (
+     <div className="wrapper">
+       <Header />
+       <div className="container">
+-        <Routes>
+-          <Route path={EBreadCrumbs.login} element={<Signin />} />
+-          <Route path={EBreadCrumbs.reget} element={<SignUp />} />
+-        </Routes>
++
+       </div>
++
+     </div>
+   );
+ };

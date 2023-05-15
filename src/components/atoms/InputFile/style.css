@@ -1,0 +1,17 @@
+.InputFile label {
+    font-style: var(--title-font-style-normal);
+    font-weight: var(--btn-font-weight-500);
+    font-size: var(--btn-font-size-14);
+    line-height: var(--card-line-height-20);
+    color: var(--main-bg-color);
+    cursor: pointer;
+}
+
+.InputFile input {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

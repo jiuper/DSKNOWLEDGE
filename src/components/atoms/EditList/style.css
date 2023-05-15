@@ -1,0 +1,61 @@
+.edit-list__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 4px 25px;
+    border-bottom: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.edit-list__left,
+.edit-item__left {
+    display: flex;
+    flex: 1;
+    gap: 25px;
+}
+
+.edit-list__right {
+    display: flex;
+    gap: 250px;
+}
+
+.edit-list__roster {
+    list-style: none;
+}
+
+.edit-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 20px;
+    border-bottom: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.edit-item__left span,
+.edit-item__right span {
+    display: flex;
+    justify-content: center;
+    min-width: 22px;
+}
+
+.edit-item__right {
+    display: flex;
+    gap: 138px;
+}
+
+.edit-item-span{
+margin-right: 30px;
+}
+.edit-item-span-type{
+    margin-right: 50px;
+}

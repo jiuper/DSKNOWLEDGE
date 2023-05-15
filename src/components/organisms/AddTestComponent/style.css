@@ -1,0 +1,143 @@
+.addTestComponent__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.addTestComponent__timeAndLevel{
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.addTestComponent__timeAndLevel__time{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.addTestComponent__timeAndLevel__time-switch{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.addTestComponent__timeAndLevel__time-switch-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addTestComponent__timeAndLevel__time-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.addTestComponent__timeAndLevel__time-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #A9A9A9;
+}
+
+.addTestComponent__timeAndLevel__time-textField{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px;
+    width: 89px;
+    height: 32px;
+    padding: 4px 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #939094;
+    text-align: center;
+}
+
+.addTestComponent__timeAndLevel__time-textField:hover {
+    border-color: #ebaded;
+}
+
+.addTestComponent__timeAndLevel__time-textField:focus {
+    border-color: #ebaded;
+}
+
+.addTestComponent__timeAndLevel__level{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.addTestComponent__timeAndLevel__level-text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addTestComponent__timeAndLevel__level-radioGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addTestComponent__timeAndLevel__level-radioGroupText{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+.addTestComponent__timeAndLevel-threshold{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.threshold{
+    width: 78px;
+    height: 32px;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: var(--title-font-weight-400);
+    font-size: var(--btn-font-size-14);
+    line-height: var(--card-line-height-20);
+    letter-spacing: 0.5px;
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.create-actions__delete{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 24px;
+    font-size: var(--btn-font-size-14);
+    color: var(--main-bg-color);
+
+}

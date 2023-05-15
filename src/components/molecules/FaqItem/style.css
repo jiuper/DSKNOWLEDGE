@@ -1,0 +1,37 @@
+.item__feedback{
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.item__title{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow_down {
+    display: none;
+}
+.arrow_up {
+    display: flex;
+}
+.active{
+    top: 30px;
+}
+.label__feedback{
+    font-size: var(--title-font-size-22);
+}
+.label-color-blue{
+    color: var(--main-bg-color);
+}
+.item__description {
+    color: var(--color-text-grey);
+    font-size: var(--title-font-size-16);
+    font-weight: var(--title-font-weight-400);
+    line-height: 24px;
+    padding-right: 79px;
+    padding-top: 8px;
+}
+
+.item__button {
+    border: none;
+    background: none;
+    padding: 0px; 
+}

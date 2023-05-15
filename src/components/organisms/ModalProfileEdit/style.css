@@ -1,0 +1,90 @@
+.profile__edit-modal {
+    padding: 32px;
+    min-width: 699px;
+    border-radius: 8px;
+}
+
+.profile__edit-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.profile__edit-body {
+    display: flex;
+}
+
+.profile__edit-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 24px;
+}
+
+.profile__edit-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #79747E;
+    margin-bottom: 16px;
+}
+
+.profile__edit-item span {
+    margin-right: 8px;
+}
+
+.item__width {
+    width: 312px;
+    height: 36px;
+    background: none;
+    border-color: #79747E;
+}
+
+.item__width:disabled{
+    border-color: #79747E;
+    color: #b1b1b1;
+}
+
+.profile__edit-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px
+}
+
+.image--profile {
+    border-radius: 8px;
+    height: 147px !important;
+    width: 147px !important;
+    margin-bottom: 4px;
+}
+
+.image--profile img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+/* .inpitFile--profile label {
+    color: #625B71 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px;
+
+} */
+.inpitFile--profile{
+    color: #625B71 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+}
+.profile__edit-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+.addQuestionComponent__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addQuestionComponent__toggles {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    justify-content: space-between;
+    font-weight: var(--btn-font-weight-500);
+    font-size: var(--title-font-size-16);
+    line-height: var(--title-line-height-24);
+    letter-spacing: 0.1px;
+    color: var(--main-text-color);
+}
+.addQuestionComponent__toggle{
+    display: flex;
+    gap: 34px;
+}
+
+.addQuestionComponent__box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.addQuestionComponent__button {
+    width: 48px;
+    height: 40px;
+    font-size: var(--title-font-size-24);
+    color: var(--white-text-color);
+    background: var(--main-bg-color);
+    border-radius: 100px;
+}
+
+.addQuestionComponent__questionList {
+    background: #F9FAFB;
+    border-radius: 16px;
+    height: 510px;
+    overflow: overlay;
+}
+
+.addQuestionComponent__questionList::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+}
+
+.addQuestionComponent__questionList::-webkit-scrollbar-thumb {
+    background-color: #E6E1E5;
+}
+
+.addQuestionComponent__questionList__addQuestion {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.addQuestionComponent__action {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 10px 24px;
+    background-color: #F9FAFB;
+    border-radius: 16px;
+}

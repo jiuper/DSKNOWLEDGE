@@ -1,0 +1,9 @@
+.profile-bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 37px;
+    width: 170px;
+    height: 48px;
+}

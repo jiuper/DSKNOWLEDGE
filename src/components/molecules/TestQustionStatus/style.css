@@ -1,0 +1,15 @@
+.qustionStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 743px;
+    height: 20px;
+}
+
+.qustionStatus span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #79747e;
+}

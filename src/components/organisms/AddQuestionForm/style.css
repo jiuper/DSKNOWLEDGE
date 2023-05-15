@@ -1,0 +1,240 @@
+
+.addQuestionForm__container {
+    padding: 24px;
+
+}
+
+.addQuestionForm__border {
+
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.addQuestionForm__counntAndDropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.addQuestionForm__counntAndDropdown-select {
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    background-color: #F9FAFB;
+}
+
+.addQuestionForm__counntAndDropdown-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: #201E1E;
+}
+
+.addQuestionForm__counntAndDropdown-select:hover {
+    background-color: #E9F0FC;
+}
+
+.addQuestionForm__questionForm {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+img.addQuestionForm__questionForm__Picture {
+    width: 240px;
+    height: 208px;
+    border-radius: 8px;
+}
+
+.addQuestionForm__questionForm__Picture__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    position: absolute;
+    top: 160px;
+    left: 5px;
+}
+
+.addQuestionForm__questionForm__form {
+    flex: 1;
+}
+
+.addQuestionForm__questionForm__form__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addQuestionForm__questionForm__form__title-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addQuestionForm__questionForm__form__title-input {
+    background: #FFFFFF;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    gap: 4px;
+    height: 36px;;
+    padding: 8px;
+}
+
+.addQuestionForm__questionForm__radioGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addQuestionForm__questionForm__radioGroup-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addQuestionForm__questionForm__radioGroup-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.addQuestionForm__questionForm__radioGroup-list label {
+    display: flex;
+    align-items: center;
+}
+
+.addQuestionForm__questionForm__radioGroup-button {
+    width: 206px;
+    height: 40px;
+    background: #F9FAFB;
+    border: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #236BE2;
+}
+
+
+
+.addQuestionForm__questionForm__chechBoxGroup-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addQuestionForm__questionForm__chechBoxGroup-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addQuestionForm__questionForm__chechBoxGroup__inputText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addQuestionForm__questionForm__chechBoxGroup__inputText-label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #201E1E;
+}
+
+.addQuestionForm__questionForm__chechBoxGroup__inputText-textField {
+    align-items: flex-start;
+    height: 36px;
+    border: 1px solid #AEAAAE;
+    border-radius: 4px;
+}
+
+.addQuestionForm__questionForm__score {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.addQuestionForm__questionForm__score-textField {
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+.addQuestionForm__controlIcon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 24px;
+    margin-bottom: 40px;
+}
+
+.addQuestionForm__controlIcon-copy {
+    padding-right: 20.67px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.addQuestionForm__controlIcon-copy:hover {
+    opacity: 1;
+}
+
+.addQuestionForm__controlIcon-delete {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+.addQuestionForm__controlIcon-delete:hover {
+    opacity: 1;
+}
+
+.addQuestionForm__questionForm__Picture__icons-hover:hover {
+    filter: invert(68%) sepia(88%) saturate(7082%) hue-rotate(209deg) brightness(93%) contrast(90%);
+    cursor: pointer;
+
+}
+
+.addQuestionFormBlock {
+    opacity: 0.5;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.addQuestionForm__questionForm__radioGroup-list-buttons{
+display: flex;
+}
