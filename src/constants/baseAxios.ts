@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const axiosBase = axios.create({
-	baseURL: "http://10.55.1.39:81/",
+	baseURL: "http://spacecapsalex-002-site1.atempurl.com/",
 })
 axiosBase.interceptors.request.use((config) => {
 	const ls = localStorage.getItem("userData")
